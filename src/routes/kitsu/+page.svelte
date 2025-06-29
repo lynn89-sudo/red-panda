@@ -105,11 +105,21 @@
     }
     #cage {
         position: relative;
-        width: 50%;
+        width: 30%;
         aspect-ratio: 1/1;
         margin: 0 auto;
         background-color: rgb(222, 125, 103);
         border-radius: 20px;
+    }
+    @media (max-width: 950px) {
+        #cage {
+            width: 50%;
+        }
+    }
+     @media (max-width: 650px) {
+        #cage {
+            width: 70%;
+        }
     }
     #cage img {
         width: 100%;

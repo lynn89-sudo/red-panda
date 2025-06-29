@@ -1,0 +1,28 @@
+[
+    {
+        "title": "Region",
+        "description": "Red pandas live in high-altitude, temperate forests with bamboo understories in the Himalayas and other high mountains. They range from northern Myanmar (Burma) to the west Sichuan and Yunnan Provinces of China. They are also found in suitable habitat in Nepal, India and Tibet.",
+        "icon": "globe_asia"
+    },
+    {
+        "title": "Name",
+        "description": "Red pandas are also refered to as Ailurus fulgens, which means 'shining cat' in Latin. The Chinese word for red panda is hun-ho, meaning 'fire fox'. Despite their naming conventions, red pandas are neither pandas nor foxes, but rather racoons.",
+        "icon": "translate"
+    },
+    {
+        "title": "Diet",
+        "description": "Bamboo constitutes about 95% of the red panda's diet. Unlike giant pandas that feed on nearly every above-ground portion of bamboo (including the culm, or woody stem), red pandas feed selectively on the most nutritious leaf tips and, when available, tender shoots.",
+        "icon": "eco"
+
+    },
+    {
+        "title": "Sleep Habits",
+        "description": "In human care, red pandas can be active at any time of day but are primarily crepuscular, or most active at dawn and dusk. On average, they spend about 45 percent of the day awake and tend to be more active in cooler weather, especially during the winter mating season. In significantly cold temperatures, red pandas can become dormant, lowering their metabolic rate and raising it every few hours as they wake up to look for food.",
+        "icon": "moon_stars"
+    },
+    {
+        "title": "Social Habits",
+        "description": "Red pandas are solitary except during the breeding season. In human care, most breeding pairs live together year-round. In the wild, the home range of one animal is about 1 square mile.",
+        "icon": "pets"
+    }
+]

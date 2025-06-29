@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap");
+@font-face {
+  font-family: 'Phantom Sans';
+  src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff')
+      format('woff'),
+    url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Regular.woff2')
+      format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Phantom Sans';
+  src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Italic.woff')
+      format('woff'),
+    url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Italic.woff2')
+      format('woff2');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Phantom Sans';
+  src: url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Bold.woff')
+      format('woff'),
+    url('https://assets.hackclub.com/fonts/Phantom_Sans_0.7/Bold.woff2')
+      format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: Phantom Sans;
+  background-color: #4d2024;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h4 span {
+  background-color: #b04f59;
+  border-radius: 20px;
+  padding: 8px;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+.invisible {
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+#title span {
+  font-size: 150px;
+  animation: anim 2s infinite ease-in-out;
+  display: inline-block;
+
+  background: linear-gradient(90deg, #b04f59, #be2806);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* for Firefox */
+
+  user-select: none;
+  -webkit-user-select: none;
+
+  cursor: pointer;
+
+}
+
+#title span:hover{
+  opacity: 70%;
+}
+
+
+@keyframes anim {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(1.5deg);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#title span:nth-child(1) { animation-delay: 0s; }
+#title span:nth-child(2) { animation-delay: 0.2s; }
+#title span:nth-child(3) { animation-delay: 0.4s; }
+#title span:nth-child(4) { animation-delay: 0.6s; }
+#title span:nth-child(5) { animation-delay: 0.8s; }
+
+#fact {
+  background-color: #400a0e;
+  opacity: 0;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  animation: bounce 3s infinite;
+}
+#fact.loaded {
+  background-color: #83444a;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+#fact span.displayed {
+    font-size: 150px !important;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+#fact span.arrow {
+  font-size: 50px !important;
+  cursor: pointer;
+}
+
+button {
+  background-color: none;
+  border-radius: 360px;
+  border: none;
+  margin: 5px;
+  color: white;
+  background-color: rgb(78, 6, 6);
+  transition: background-color 0.3s ease-in-out;
+
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+button:hover {
+  background-color: rgb(132, 38, 38);
+}
+
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#meet {
+  background-color: #743403;
+  opacity: 0;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px;
+  display: none;
+}
+#meet.loaded {
+  background-color: #e85a41;
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+  display: block
+}
+#meet button {
+  transition: transform 0.3s ease-in-out;
+}
+#meet button span {
+  font-size: 50px !important;
+  cursor: pointer;
+}
+#meet button:hover {
+  transform: translateX(7px);
+}
+
+#endangered {
+  background-color: #330303;
+  opacity: 1;
+  margin: 20px;
+  border-radius: 20px;
+  padding: 20px;
+}
+#endangered button {
+  transition: transform 0.3s ease-in-out;}
+#endangered button span {
+  font-size: 50px !important;
+  cursor: pointer;
+}
+#endangered button:hover {
+  transform: translateX(7px);
+}
