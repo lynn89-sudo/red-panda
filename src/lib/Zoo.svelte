@@ -1,6 +1,6 @@
 <style>
     .bannerIcon {
-        vertical-align: -0.17em;
+        vertical-align: -0.07em;
         font-size: 24px !important;
     }
     @font-face {
@@ -25,7 +25,7 @@
         top: 0;
         height: 65px;
         z-index: 1000;
-        font-size: 10px;
+        font-size: 15px;
         transition: box-shadow 0.3s ease-in-out;
         font-family: Phantom Sans, sans-serif;
         text-decoration: none;
@@ -37,8 +37,7 @@
     }
 </style>
 
-<a href = "https://www.google.com"><div id="zoo_linkBanner">
+<a href = "https://zoo.hackclub.com"><div id="zoo_linkBanner">
     <h1>CHECK OUT MORE AT THE ZOO <span class="material-symbols-outlined bannerIcon">pets</span> </h1>
-    <p>*(This banner will be imported for each project and function when the website is live)</p>
 </div></a>
 <div style="height: 100px"></div>
